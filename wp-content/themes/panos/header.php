@@ -18,13 +18,10 @@
 
     </head>
     <body>
+        
+        <div id="wrapper">
             
-            <header>
-                <h1><a href="<?php bloginfo('url') ?>"><?php bloginfo('name'); ?></a></h1>
-                <h2 id="tagline"><?php bloginfo('description'); ?></h2>
-            </header>
-            
-            <nav id="main-nav" class="navbar navbar-inverse" role="navigation">
+            <nav id="main-nav" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
                 <div class="container">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse">
@@ -59,5 +56,3 @@
                     ?>
                 </div><!-- .container -->
             </nav>
-        
-        <div id="wrapper">

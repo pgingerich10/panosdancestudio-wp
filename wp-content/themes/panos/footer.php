@@ -1,6 +1,6 @@
         </div>
 
-        <footer>&copy;&nbsp;<?php echo date("Y"); ?>&nbsp;&#124;&nbsp;Panos Dance Studio</footer>
+        <footer>&copy;&nbsp;<?php echo date("Y"); ?>&nbsp;&#124;&nbsp;Panos Dance Studio &ndash; <?php bloginfo('description'); ?></footer>
 
 
         <?php wp_footer(); ?>
