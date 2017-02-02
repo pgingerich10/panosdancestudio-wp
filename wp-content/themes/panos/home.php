@@ -16,9 +16,6 @@
 			<div style="clear:both"></div>
 		<?php endwhile; endif; ?>
     	</article>
-			
-        <!-- blog sidebar -->
-        <?php dynamic_sidebar('blog-sidebar'); ?>
         
     </section>
         

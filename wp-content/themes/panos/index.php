@@ -18,9 +18,6 @@
             <?php endif; ?>
         <?php endwhile; endif; ?>
         
-        <!-- blog sidebar -->
-        <?php dynamic_sidebar('blog-sidebar'); ?>
-        
     </section>
 
 

@@ -3,13 +3,21 @@
 @backgroundColor: #333;
 @accentColor: #aab;
 
+* {
+    box-sizing: border-box;
+}
+
 html, body {
     background-color: @backgroundColor;
     color: @color;
 }
 
 #wrapper {
-    padding: 150px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 150px 0 300px;
+    min-height: 100%;
+    min-width: 100%;
 }
 
 #main-nav {
@@ -25,5 +33,11 @@ a:hover, a:visited {
 }
 
 footer {
+    box-sizing: border-box;
     background-color: darken(@backgroundColor, 5%);
+    padding: 20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
 }

@@ -1,9 +1,18 @@
+            <footer>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <!-- blog sidebar -->
+                        <?php dynamic_sidebar('blog-sidebar'); ?>
+                    </div>
+                    <div class="col-sm-6">
+                        &copy;&nbsp;<?php echo date("Y"); ?>&nbsp;&#124;&nbsp;Panos Dance Studio &ndash; <?php bloginfo('description'); ?>
+                    </div>
+                </div>
+            </footer>
+
+            <?php wp_footer(); ?>
+
         </div>
-
-        <footer>&copy;&nbsp;<?php echo date("Y"); ?>&nbsp;&#124;&nbsp;Panos Dance Studio &ndash; <?php bloginfo('description'); ?></footer>
-
-
-        <?php wp_footer(); ?>
         <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <script type="text/javascript">
