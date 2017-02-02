@@ -30,6 +30,9 @@
                 //add bootstrap classes to inputs
                 $("input[type=text], input[type=password], input[type=datetime-local], input[type=date], input[type=month], input[type=time], input[type=week], input[type=number], input[type=email], input[type=url], input[type=search], input[type=tel], input[type=color]").addClass("form-control");
                 $("input[type=submit]").addClass("btn btn-default");
+                $("textarea").addClass("form-control");
+                
+                $("section:has(#contact-page)").css("min-height", "900px");
                 
             });
         </script>
