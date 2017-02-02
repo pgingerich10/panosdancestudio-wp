@@ -17,17 +17,13 @@ html, body {
 #wrapper {
     position: relative;
     box-sizing: border-box;
-    padding: 150px 0 300px;
+    padding: 60px 0 400px;
     min-height: 100%;
     min-width: 100%;
 }
 
 textarea {
     height: 250px;
-}
-
-#main-nav {
-    padding: 40px;
 }
 
 a:link, a:visited {
@@ -58,4 +54,13 @@ footer {
     left: 0;
     right: 0;
     position: absolute;
+}
+
+@media screen and (min-width:700px){
+    #wrapper {
+        padding: 150px 0 300px;
+    }
+    #main-nav {
+        padding: 40px;
+    }
 }

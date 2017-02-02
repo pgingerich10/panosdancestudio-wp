@@ -6,6 +6,7 @@
                     </div>
                     <div class="col-sm-6">
                         &copy;&nbsp;<?php echo date("Y"); ?>&nbsp;&#124;&nbsp;Panos Dance Studio &ndash; <?php bloginfo('description'); ?>
+                        <?php dynamic_sidebar('social-sidebar'); ?>
                     </div>
                 </div>
             </footer>
@@ -32,7 +33,7 @@
                 $("input[type=submit]").addClass("btn btn-default");
                 $("textarea").addClass("form-control");
                 
-                $("section:has(#contact-page)").css("min-height", "900px");
+                $("section:has(#contact-page)").css("min-height", "1000px");
                 
             });
         </script>

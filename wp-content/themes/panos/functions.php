@@ -17,4 +17,14 @@ register_sidebar(array(
 		'before_title' => '<h3>',
 		'after_title' => '</h3>'
 ));
+//register social sidebar
+register_sidebar(array(
+		'name' => 'Social Sidebar',
+		'id' => 'social-sidebar',
+		'description' => 'This is a sidebar for social/contact',
+		'before_widget' => '<aside class="col-sm-12">[sgmb id=1]',
+		'after_widget' => '</aside>',
+		'before_title' => '',
+		'after_title' => ''
+));
 ?>
