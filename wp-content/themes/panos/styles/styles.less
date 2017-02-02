@@ -2,3 +2,20 @@
 @linkColor: #f0a;
 @backgroundColor: #333;
 @accentColor: #aab;
+
+html, body {
+    background-color: @backgroundColor;
+    color: @color;
+}
+
+a:link, a:visited {
+    color: @linkColor;
+}
+
+a:hover, a:visited {
+    color: @accentColor;
+}
+
+footer {
+    background-color: darken(@backgroundColor, 5%);
+}
